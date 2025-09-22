@@ -1,4 +1,7 @@
 Flask==2.2.5
 gunicorn==20.1.0
-supabase==2.4.0
-python-dotenv==1.0.0   # optional, if you use .env for local dev
+supabase==1.0.3
+gotrue==1.0.2
+httpx==0.24.1
+python-dotenv==1.0.0
+

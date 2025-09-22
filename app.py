@@ -7,9 +7,7 @@ from datetime import datetime, timezone
 from flask import Flask, request, jsonify, render_template, send_from_directory
 from supabase import create_client, Client
 
-#export SUPABASE_URL="https://xdbavzzcoautleoylvoh.supabase.co"
-#export SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhkYmF2enpjb2F1dGxlb3lsdm9oIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc4NTQ4MTAsImV4cCI6MjA3MzQzMDgxMH0.oocBIHHm59y54_kLaUTCSx0NC6l2Bh63FC1ttxaHCIk"
-# Config
+
 QUIZ_DURATION_MIN = 25
 POOL_PATH = "questions.json"
 
@@ -185,4 +183,5 @@ def static_files(fn):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
+    app.run(debug=False, host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
+    #set debug=True to run in local

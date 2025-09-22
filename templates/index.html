@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cyber Quest - Round 2</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/static/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <h1>Cyber Quest</h1>
+        <span class="subtitle">Round 2 - CYPHER CHASE</span>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="card" id="mainCard">
+        <div class="event-description">
+          <h2>Welcome to Cyber Quest</h2>
+          <p>Cyber Quest immerses participants in a series of engaging challenges that test their problem-solving skills and knowledge through interactive tasks. This round features a mix of technical puzzles, logic problems, and real-world scenario simulations designed for all experience levels. It encourages quick thinking, teamwork, and practical application of concepts in a fun, dynamic environment. Teams compete to solve the most challenges and advance to the final round.</p>
+        </div>
+
+        <div class="rules-section">
+          <h3>Rules & Regulations</h3>
+          <div class="rules-grid">
+            <div class="rule-item">
+              <div class="rule-icon">⏱️</div>
+              <div class="rule-content">
+                <strong>Time Limit</strong>
+                <span>25 minutes</span>
+              </div>
+            </div>
+            <div class="rule-item">
+              <div class="rule-icon">👥</div>
+              <div class="rule-content">
+                <strong>Team Size</strong>
+                <span>Individual or teams of 2-3 members</span>
+              </div>
+            </div>
+            <div class="rule-item">
+              <div class="rule-icon">🎯</div>
+              <div class="rule-content">
+                <strong>Main Challenge</strong>
+                <span>Solve cyber-related puzzles and interactive challenges</span>
+              </div>
+            </div>
+            <div class="rule-item">
+              <div class="rule-icon">🚫</div>
+              <div class="rule-content">
+                <strong>No External Tools Allowed</strong>
+                <span>Participants are strictly prohibited from using Google, external resources, or AI tools; all answers must be based on their own knowledge, and any violation will lead to immediate disqualification.</span>
+              </div>
+            </div>
+            <div class="rule-item">
+              <div class="rule-icon">📊</div>
+              <div class="rule-content">
+                <strong>Scoring</strong>
+                <span>Based on challenges solved within time limit</span>
+              </div>
+            </div>
+            <div class="rule-item">
+              <div class="rule-icon">📝</div>
+              <div class="rule-content">
+                <strong>Question Distribution</strong>
+                <span>Decode(2), Phishing(3), Spot Vulnerability(2), Cyber Hygiene(2), Digital Footprint(1)</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="important-note">
+            <div class="note-icon">⚠️</div>
+            <div class="note-content">
+              <strong>Important:</strong> Once you start a question, you cannot go back. Each question must be completed before proceeding to the next one.
+            </div>
+          </div>
+        </div>
+
+        <div class="team-section">
+          <h3>Enter Your Details</h3>
+          <div class="input-group">
+            <label for="team">Team / Participant Name</label>
+            <input id="team" type="text" placeholder="Enter your team or participant name" autocomplete="off" required />
+            <div class="input-hint">This will be used to identify your submission</div>
+          </div>
+          
+          <div class="consent-section">
+            <label class="consent-checkbox">
+              <input type="checkbox" id="consentCheck" required />
+              <span class="checkmark"></span>
+              <span class="consent-text">I agree to the rules and regulations and understand that I cannot go back to previous questions once started.</span>
+            </label>
+          </div>
+
+          <div class="start-section">
+            <button id="startBtn" class="start-button" disabled>
+              <span class="button-text">Start Cyber Quest</span>
+              <span class="button-icon">🚀</span>
+            </button>
+            <div id="status" class="status"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Consent Modal -->
+  <div id="consentModal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Final Confirmation</h3>
+        <div class="modal-icon">🛡️</div>
+      </div>
+      <div class="modal-body">
+        <p><strong>Team:</strong> <span id="confirmTeam"></span></p>
+        <p>The quiz will have <strong>10 questions</strong> and you will have <strong>25 minutes</strong> to complete them.</p>
+        <div class="warning-box">
+          <div class="warning-icon">⚠️</div>
+          <div class="warning-text">
+            <strong>Important Reminders:</strong>
+            <ul>
+              <li>Once you start, the timer begins immediately</li>
+              <li>You cannot go back to previous questions</li>
+              <li>Participants are strictly prohibited from using Google, external resources, or AI tools; all answers must be based on their own knowledge and reasoning, and any violation will lead to immediate disqualification.</li>
+              <li>Submit before time runs out or your answers will be auto-submitted</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button id="cancelReady" class="btn-secondary">Cancel</button>
+        <button id="confirmReady" class="btn-primary">Start Quiz Now</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

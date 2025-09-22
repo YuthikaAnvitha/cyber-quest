@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "category": "decode",
+    "question": "Encode the given text using any of the 4 methods to find the cipher text.\\n\\n Text:\\n\\nAttack from the north",
+    "techniques": "Ciphering Techniques (reference)\\n\\nTechniques you can use:\\n\\n1. Caesar's cipher:\\nEach letter is shifted forward by +3.\\nExample with WELCOME:\\nW → Z, E → H, L → O, C → F, O → R, M → P, E → H\\nCipher: ZHOFRPH\\n\\n2. Atbash Cipher\\nEach letter is replaced with its opposite in the alphabet (A ↔ Z, B ↔ Y, C ↔ X …).\\nExample with WELCOME:\\nW → D, E → V, L → O, C → X, O → L, M → N, E → V\\nCipher: DVOXLNV\\n\\n3. Transposition Cipher\\nArrange the message into rows of 4 letters each (adding ‘X’ at the end if needed to fill the last row). Then, read the letters column by column to form the cipher text.\\nExample with WELCOME:\\nGrid (4 columns):\\n \\tW E L C  \\n       O M E X \\nRead column-wise: WOEMLECX\\nCipher: WOEMLECX\\n\\n4. Rail Fence Cipher\\nLetters are written in a zig-zag pattern across rails having depth 2, then read row by row.\\nExample with WELCOME:\\nZig-zag:\\nW\\t\\t\\tL\\t\\t\\tO\\t\\t\\tE\\n      E\\t\\tC\\t\\t\\tM\\nRead rows: WLOE + ECM\\nCipher: WLOEECM",
+    "options": ["zggzxpuilngsvmligs", "dwwdfnivrpwkhqruwk", "atcfoteottakrnhnrh", "acoettkmnhtftpxarhtrx"],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "category": "decode",
+    "question": "Encode the given text using any of the 4 methods to find the cipher text.\\n\\nText:\\n\\nSecurity is more fun",
+    "techniques":"Ciphering Techniques (reference)\\n\\nTechniques you can use:\\n\\n1. Caesar's cipher:\\nEach letter is shifted forward by +3.\\nExample with WELCOME:\\nW → Z, E → H, L → O, C → F, O → R, M → P, E → H\\nCipher: ZHOFRPH\\n\\n2. Atbash Cipher\\nEach letter is replaced with its opposite in the alphabet (A ↔ Z, B ↔ Y, C ↔ X …).\\nExample with WELCOME:\\nW → D, E → V, L → O, C → X, O → L, M → N, E → V\\nCipher: DVOXLNV\\n\\n3. Transposition Cipher\\nArrange the message into rows of 4 letters each (adding ‘X’ at the end if needed to fill the last row). Then, read the letters column by column to form the cipher text.\\nExample with WELCOME:\\nGrid (4 columns):\\n \\tW E L C  \\n       O M E X \\nRead column-wise: WOEMLECX\\nCipher: WOEMLECX\\n\\n4. Rail Fence Cipher\\nLetters are written in a zig-zag pattern across rails having depth 2, then read row by row.\\nExample with WELCOME:\\nZig-zag:\\nW\\t\\t\\tL\\t\\t\\tO\\t\\t\\tE\\n      E\\t\\tC\\t\\t\\tM\\nRead rows: WLOE + ECM\\nCipher: WLOEECM",
+    "options": ["scrtimrfneuiysoeu", "hvxfirgarhnlivufm", "vhfxumwblvpruhixqs", "srjrneisexctmfxuyoux"],
+    "answer": 0
+  },
+  {
+    "id": 3,
+    "category": "decode",
+    "question": "Encode the given text using any of the 4 methods to find the cipher text.\\n\\nText:\\n\\nCyber dust is hot",
+    "techniques": "Ciphering Techniques (reference)\\n\\nTechniques you can use:\\n\\n1. Caesar's cipher:\\nEach letter is shifted forward by +3.\\nExample with WELCOME:\\nW → Z, E → H, L → O, C → F, O → R, M → P, E → H\\nCipher: ZHOFRPH\\n\\n2. Atbash Cipher\\nEach letter is replaced with its opposite in the alphabet (A ↔ Z, B ↔ Y, C ↔ X …).\\nExample with WELCOME:\\nW → D, E → V, L → O, C → X, O → L, M → N, E → V\\nCipher: DVOXLNV\\n\\n3. Transposition Cipher\\nArrange the message into rows of 4 letters each (adding ‘X’ at the end if needed to fill the last row). Then, read the letters column by column to form the cipher text.\\nExample with WELCOME:\\nGrid (4 columns):\\n \\tW E L C  \\n       O M E X \\nRead column-wise: WOEMLECX\\nCipher: WOEMLECX\\n\\n4. Rail Fence Cipher\\nLetters are written in a zig-zag pattern across rails having depth 2, then read row by row.\\nExample with WELCOME:\\nZig-zag:\\nW\\t\\t\\tL\\t\\t\\tO\\t\\t\\tE\\n      E\\t\\tC\\t\\t\\tM\\nRead rows: WLOE + ECM\\nCipher: WLOEECM",
+    "options": ["fafhugxvwlvkrw", "ybyviwfhgrhslg", "carutsoyedsiht", "crtoyditbusxeshx"],
+    "answer": 3
+  },
+  {
+    "id": 4,
+    "category": "decode",
+    "question": "Encode the given text using any of the 4 methods to find the cipher text.\\n\\nText:\\n\\nKeep safe on the system",
+    "techniques": "Ciphering Techniques (reference)\\n\\nTechniques you can use:\\n\\n1. Caesar's cipher:\\nEach letter is shifted forward by +3.\\nExample with WELCOME:\\nW → Z, E → H, L → O, C → F, O → R, M → P, E → H\\nCipher: ZHOFRPH\\n\\n2. Atbash Cipher\\nEach letter is replaced with its opposite in the alphabet (A ↔ Z, B ↔ Y, C ↔ X …).\\nExample with WELCOME:\\nW → D, E → V, L → O, C → X, O → L, M → N, E → V\\nCipher: DVOXLNV\\n\\n3. Transposition Cipher\\nArrange the message into rows of 4 letters each (adding ‘X’ at the end if needed to fill the last row). Then, read the letters column by column to form the cipher text.\\nExample with WELCOME:\\nGrid (4 columns):\\n \\tW E L C  \\n       O M E X \\nRead column-wise: WOEMLECX\\nCipher: WOEMLECX\\n\\n4. Rail Fence Cipher\\nLetters are written in a zig-zag pattern across rails having depth 2, then read row by row.\\nExample with WELCOME:\\nZig-zag:\\nW\\t\\t\\tL\\t\\t\\tO\\t\\t\\tE\\n      E\\t\\tC\\t\\t\\tM\\nRead rows: WLOE + ECM\\nCipher: WLOEECM",
+    "options": ["Nhhsvdihrqwkhvbvwhp", "puvkhzuvlngsvhbhgvn", "kspeteanseeftympehsx", "kesfpteytmepaenhooe"],
+    "answer": 0
+  },
+  {
+    "id": 5,
+    "category": "decode",
+    "question": "Encode the given text using any of the 4 methods to find the cipher text.\\n\\nText:\\n\\nSecurity is personal",
+    "techniques": "Ciphering Techniques (reference)\\n\\nTechniques you can use:\\n\\n1. Caesar's cipher:\\nEach letter is shifted forward by +3.\\nExample with WELCOME:\\nW → Z, E → H, L → O, C → F, O → R, M → P, E → H\\nCipher: ZHOFRPH\\n\\n2. Atbash Cipher\\nEach letter is replaced with its opposite in the alphabet (A ↔ Z, B ↔ Y, C ↔ X …).\\nExample with WELCOME:\\nW → D, E → V, L → O, C → X, O → L, M → N, E → V\\nCipher: DVOXLNV\\n\\n3. Transposition Cipher\\nArrange the message into rows of 4 letters each (adding ‘X’ at the end if needed to fill the last row). Then, read the letters column by column to form the cipher text.\\nExample with WELCOME:\\nGrid (4 columns):\\n \\tW E L C  \\n       O M E X \\nRead column-wise: WOEMLECX\\nCipher: WOEMLECX\\n\\n4. Rail Fence Cipher\\nLetters are written in a zig-zag pattern across rails having depth 2, then read row by row.\\nExample with WELCOME:\\nZig-zag:\\nW\\t\\t\\tL\\t\\t\\tO\\t\\t\\tE\\n      E\\t\\tC\\t\\t\\tM\\nRead rows: WLOE + ECM\\nCipher: WLOEECM",
+    "options": ["huxfirgarhkvihlmzo", "scrtiproaeuiysesnl", "viexulwblvshuvrqdo", "srisaeisslctopxuyenx"],
+    "answer": 1
+  },
+  {
+    "id": 6,
+    "category": "decode",
+    "question": "Encode the given text using any of the 4 methods to find the cipher text.\\n\\nText:\\n\\nData security safe",
+    "techniques": "Ciphering Techniques (reference)\\n\\nTechniques you can use:\\n\\n1. Caesar's cipher:\\nEach letter is shifted forward by +3.\\nExample with WELCOME:\\nW → Z, E → H, L → O, C → F, O → R, M → P, E → H\\nCipher: ZHOFRPH\\n\\n2. Atbash Cipher\\nEach letter is replaced with its opposite in the alphabet (A ↔ Z, B ↔ Y, C ↔ X …).\\nExample with WELCOME:\\nW → D, E → V, L → O, C → X, O → L, M → N, E → V\\nCipher: DVOXLNV\\n\\n3. Transposition Cipher\\nArrange the message into rows of 4 letters each (adding ‘X’ at the end if needed to fill the last row). Then, read the letters column by column to form the cipher text.\\nExample with WELCOME:\\nGrid (4 columns):\\n \\tW E L C  \\n       O M E X \\nRead column-wise: WOEMLECX\\nCipher: WOEMLECX\\n\\n4. Rail Fence Cipher\\nLetters are written in a zig-zag pattern across rails having depth 2, then read row by row.\\nExample with WELCOME:\\nZig-zag:\\nW\\t\\t\\tL\\t\\t\\tO\\t\\t\\tE\\n      E\\t\\tC\\t\\t\\tM\\nRead rows: WLOE + ECM\\nCipher: WLOEECM",
+    "options": ["gbwduhfxulwbvdih", "dutcrtsfaaeuiyae", "dsrsaeiatctfauye", "wzgyhuxfirgbhzuv"],
+    "answer": 2
+  },
+  {
+    "id": 7,
+    "category": "phishing",
+    "question": "Email: \"Security alert: Someone tried to login to your Gmail account. Review activity here: accounts.google.com/security\"",
+    "options": ["Legit", "Phishing"],
+    "answer": 0
+  },
+  {
+    "id": 8,
+    "category": "phishing",
+    "question": "Message: \"Instagram: Your account will be permanently deleted unless you verify within 24 hours: insta-help-center.net\"",
+    "options": ["Legit", "Phishing"],
+    "answer": 1
+  },
+  {
+    "id": 9,
+    "category": "phishing",
+    "question": "Email: \"ICICI Bank Alert: A transaction of \u20B925,000 was attempted on your account. If this wasn’t you, verify immediately at icici-securebank.in\"",
+    "options": ["Legit", "Phishing"],
+    "answer": 1
+  },
+  {
+    "id": 10,
+    "category": "phishing",
+    "question": "Message: \"Flipkart: Your delivery for Order #876543 is arriving today. Track your package: flipkart.com/track/876543\"",
+    "options": ["Legit", "Phishing"],
+    "answer": 0
+  },
+  {
+    "id": 11,
+    "category": "phishing",
+    "question": "Email: \"GitHub Security Alert: New login detected from Chennai, India. Check activity: github.com/settings/security\"",
+    "options": ["Legit", "Phishing"],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "category": "phishing",
+    "question": "Message: \"Your Jio recharge of \u20B9666 failed. Retry here: jio-pay.in/recharge\"",
+    "options": ["Legit", "Phishing"],
+    "answer": 1
+  },
+  {
+    "id": 13,
+    "category": "phishing",
+    "question": "Notice: \"University Notice: Internal marks have been uploaded. View results at univportal.edu/results\"",
+    "options": ["Legit", "Phishing"],
+    "answer": 0
+  },
+  {
+    "id": 14,
+    "category": "phishing",
+    "question": "Email: \"Zoom: New meeting scheduled by your team. Join here: zoom.us/j/987654321\"",
+    "options": ["Legit", "Phishing"],
+    "answer": 0
+  },
+  {
+    "id": 15,
+    "category": "phishing",
+    "question": "Message: \"Dear SBI user, your YONO account is temporarily blocked. Restore access: sbi-yono-support.net\"",
+    "options": ["Legit", "Phishing"],
+    "answer": 1
+  },
+  {
+    "id": 16,
+    "category": "spotvul",
+    "question": "A web app issues JWTs signed with alg: 'HS256' and stores the secret in environment variables. A security test shows an endpoint accepts a token with alg: 'none' and no signature. What’s the core issue?",
+    "options": ["Insecure direct object reference", "Missing rate limiting", "JWT algorithm confusion/acceptance of unsigned tokens", "Weak hashing algorithm for stored passwords"],
+    "answer": 2
+  },
+  {
+    "id": 17,
+    "category": "spotvul",
+    "question": "You receive a job offer email from a company that looks real. The email is sent from careers@accenture-jobs.com, includes a valid-looking logo, and links to an HTTPS site. What’s the subtle vulnerability?",
+    "options": ["Domain spoofing", "HTTPS ensures the site is authentic", "Logos embedded in emails are signed and can’t be faked", "Recruitment domains often differ, so no red flag"],
+    "answer": 0
+  },
+  {
+    "id": 18,
+    "category": "spotvul",
+    "question": "A PDF from a client opens fine but silently tries to connect to the internet in the background. Which vulnerability does this suggest?",
+    "options": ["Embedded JS / external object in PDF", "Legitimate telemetry fetching fonts/updates", "PDF metadata sync to cloud", "OS-level icon fetch for thumbnails"],
+    "answer": 0
+  },
+  {
+    "id": 19,
+    "category": "spotvul",
+    "question": "Your browser warns: 'This site is using HSTS but certificate is expired.' You bypass it. Why is this more dangerous than a normal expired certificate?",
+    "options": ["HSTS + expired cert can enable MITM", "Expired certs are benign if HSTS is present", "HSTS prevents downgrade, so expired cert is only availability issue", "Browsers silently accept expired certs with HSTS"],
+    "answer": 0
+  },
+  {
+    "id": 20,
+    "category": "spotvul",
+    "question": "You scan a QR code at a restaurant that opens a menu page. The page immediately asks for Google login to 'save preferences.' What’s the hidden risk?",
+    "options": ["OAuth phishing / fake OAuth consent", "Legitimate OAuth flow", "Tracking-only redirect", "Device fingerprinting"],
+    "answer": 0
+  },
+  {
+    "id": 21,
+    "category": "spotvul",
+    "question": "A browser extension claims to be an ad blocker. On install, it requests: 'Read/change all data on websites' + 'Communicate with native apps.' What’s the deeper risk?",
+    "options": ["Inject scripts to steal credentials", "Only manipulates ad scripts", "Native messaging extends access beyond browser sandbox", "High-rated extensions are audited, so safe"],
+    "answer": 2
+  },
+  {
+    "id": 22,
+    "category": "hygiene",
+    "question": "A friend says Incognito Mode means no trackers. What’s the flaw?",
+    "options": ["Incognito blocks all cookies and ISPs", "Incognito hides history locally only; websites/ISPs still track", "Incognito encrypts all browsing", "Incognito blocks malware and phishing scripts"],
+    "answer": 1
+  },
+  {
+    "id": 23,
+    "category": "hygiene",
+    "question": "A classmate stores projects only on a USB stick because 'USBs don’t get hacked.' What’s the risk?",
+    "options": ["USBs are offline, can’t be infected", "USBs can carry malware and be lost/stolen", "Files auto-encrypt on USB disconnect", "USBs have tamper-proof hardware"],
+    "answer": 1
+  },
+  {
+    "id": 24,
+    "category": "hygiene",
+    "question": "You accept 'All Cookies' on most sites. What’s the downside?",
+    "options": ["Only third-party cookies persist; harmless", "Cross-site tracking and profile stitching, even across devices", "Consent affects only local storage, not analytics", "Cookies are session-only, no long-term profiling"],
+    "answer": 1
+  },
+  {
+    "id": 25,
+    "category": "hygiene",
+    "question": "Your phone auto-connects to remembered Wi-Fi networks. What’s the refined risk?",
+    "options": ["Auto-connect is safe, requires password", "Attackers set up rogue APs with same SSID (evil twin)", "Only enterprise Wi-Fi is affected", "OS validates SSID certs, blocking rogue hotspots"],
+    "answer": 1
+  },
+  {
+    "id": 26,
+    "category": "hygiene",
+    "question": "A coworker receives a PDF that says 'Enable content to view.' What’s the risk?",
+    "options": ["Only harmless fonts/scripts run", "Active content may run arbitrary payloads if vulnerable", "Active content is deprecated; prompt is legacy", "Corporate readers block network activity, only local macros run"],
+    "answer": 1
+  },
+  {
+    "id": 27,
+    "category": "hygiene",
+    "question": "Your browser extension asks for 'Read/change all data on websites.' What’s the hazard?",
+    "options": ["Only alters DOM for looks", "Can intercept/modify requests, capture credentials", "Browser store prevents misuse", "Permission is scoped per-tab, limited impact"],
+    "answer": 1
+  },
+  {
+    "id": 28,
+    "category": "digitalfootprint",
+    "question": "A recruiter rejects you after seeing critical posts about your old job. Which principle is illustrated?",
+    "options": ["Digital footprint permanence", "Privacy settings misconfiguration", "Data mining by recruiters", "Network latency in profiles"],
+    "answer": 0
+  },
+  {
+    "id": 29,
+    "category": "digitalfootprint",
+    "question": "A friend tags you at a cafe; later you get 'suggested friends' from that location. Cause?",
+    "options": ["Tagged content sharing", "Device fingerprinting", "Indirect social graph mapping", "Browser cache tracking"],
+    "answer": 2
+  },
+  {
+    "id": 30,
+    "category": "digitalfootprint",
+    "question": "You post a review but didn't share location; later you see ads for nearby cafes. Cause?",
+    "options": ["Explicit geotagging", "Implicit location inference", "Browser cookies", "Profile age correlation"],
+    "answer": 1
+  }
+]
